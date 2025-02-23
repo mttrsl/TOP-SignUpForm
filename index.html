@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP Sign Up Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div id="image-container">
+        <img id="background-image" src="Assets/silas-schneider-kafPw9LGHMY-unsplash.jpg" atl="side-image"></img>
+        <div id="card">
+            <img id="card-img" src="Assets/odin-lined.png" alt="odin-lined"></img>
+            <div id="card-text">Odin</div>
+        </div>
+        <div id="img-cred">Photo by <span><a href="https://unsplash.com/@silassch_92" id="credlink">Silas Schneider</a></span> on <span><a href="https://unsplash.com/photos/a-snowboarder-is-going-down-a-snowy-hill-kafPw9LGHMY" id="credlink">Unsplash</a></span></div>
+    </div>
+    <div id="content-container">
+        <div id="top-text-container">
+            <p id="top-text">This is not a real online service! You know you need something like this in your life to help you realise your deepest dreams.</p>
+            <p id="top-text2">Sign up <em>now</em> to get started.</p>
+            <p id="top-text3">You <em>know</em> you want too.</p>
+        </div>
+        <form id="form-container" action="post">
+            <p id="form-heading">Lets do this</p>
+            <div id="name-container" class="form-group">
+                <div class="label-row">
+                    <label for="first_name">First name:</label>
+                    <label for="last_name">Last name:</label>
+                </div>
+                <div class="input-row">
+                    <input type="text" id="first_name">
+                    <input type="text" id="last_name">
+                </div>
+            </div>
+            
+            <div id="contact-container" class="form-group">
+                <div class="label-row">
+                    <label for="email">Email:</label>
+                    <label for="contact-number">Phone number:</label>
+                </div>
+                <div class="input-row">
+                    <input type="email" id="email">
+                    <input type="number" id="contact-number">
+                </div>
+            </div>
+            
+            <div id="password-container" class="form-group">
+                <div class="label-row">
+                    <label for="password">Password:</label>
+                    <label for="confirm-password">Confirm password:</label>
+                </div>
+                <div class="input-row">
+                    <input type="password" id="password">
+                    <input type="password" id="confirm-password">
+                </div>
+            </div>
+        </form>
+        <div id="bottom-container">
+            <button type="submit" id="submit-btn">Create account</button>
+            <p id="bottom-text">Already have an account? <span><a href="https://www.theodinproject.com/users/sign_in" id="signup-link">Log in</a></span></p>
+        </div>
+    </div>
+</body>
+</html>
